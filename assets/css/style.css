@@ -171,6 +171,7 @@ cursor:pointer
     /* margin-left: .5rem; */
     opacity: 30%;
     position: absolute;
+
 }
 .victor img{
     padding:.3rem .5rem;
@@ -312,8 +313,10 @@ margin-right: .5rem;
 /* .regular{
     font-family: var(--muli-regular);
 } */
-@media(max-width:320px){
+@media(max-width:460px){
     .virtual{
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
     }
     .Our-services__card__groub>*{
